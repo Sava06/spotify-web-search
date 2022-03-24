@@ -1,0 +1,65 @@
+.container {
+    width: auto;
+    min-height: 100vh;
+    background-image: url(./spotify.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 auto;
+    color: #1DB954;
+    overflow: hidden;
+}
+
+.appHeader{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    height: 80px;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(59, 58, 58);
+    background-color: rgb(39, 38, 38, 1);
+    border-radius: 0 0 8px 8px;
+    border-bottom: 3px solid #1DB954;  
+    
+    
+}
+.appHeader svg {
+    margin-left: 100px;
+    max-height: 200px;
+}
+
+.appHeader .svg {
+    position: absolute;
+    margin-left: 350px;
+    max-width: 200px;
+    
+}
+
+.appHeader .btn {
+    cursor: pointer;
+    margin-right: 100px;
+    padding: 6px 24px 6px 24px;
+    border-radius: 32px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: #191414;
+    border: 2px solid #2ee96f;   
+}
+
+.appHeader .btn:hover {
+    background-color: #1DB954;
+    color: #191414;    
+}
+
+.appHeader .btn:active {
+    color: white;
+}
+
+
